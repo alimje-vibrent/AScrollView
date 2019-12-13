@@ -1,0 +1,16 @@
+PODS:
+  - AScrollView (0.1.0)
+
+DEPENDENCIES:
+  - AScrollView (from `../`)
+
+EXTERNAL SOURCES:
+  AScrollView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AScrollView: 9876a1a6c0801b101d2de5e15731f8d2460d20fc
+
+PODFILE CHECKSUM: a0979e90d2c27f01e5e745063ccb7c0430e60ef1
+
+COCOAPODS: 1.8.4

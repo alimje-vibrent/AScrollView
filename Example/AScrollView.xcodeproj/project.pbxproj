@@ -41,12 +41,12 @@
 		607FACE51AFB9204008FA782 /* AScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		9D79D5E24E1CC8B2D6308922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9D79D5E24E1CC8B2D6308922 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A63037836C1E184E75E2846D /* Pods-AScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AScrollView_Tests/Pods-AScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A94CCA499CB662813B5F2E99 /* AScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AScrollView.podspec; path = ../AScrollView.podspec; sourceTree = "<group>"; };
+		A94CCA499CB662813B5F2E99 /* AScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AScrollView.podspec; path = ../AScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D16C5C0647C619EDD7B1FF8D /* Pods-AScrollView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AScrollView_Example.debug.xcconfig"; path = "Target Support Files/Pods-AScrollView_Example/Pods-AScrollView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DF09E2ED8019562DCCC82202 /* Pods-AScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-AScrollView_Tests/Pods-AScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E4B1381B8FCECCBFE426FFEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E4B1381B8FCECCBFE426FFEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				A63037836C1E184E75E2846D /* Pods-AScrollView_Tests.debug.xcconfig */,
 				DF09E2ED8019562DCCC82202 /* Pods-AScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
