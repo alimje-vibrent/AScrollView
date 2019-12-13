@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AScrollView_Example' do
+  pod 'AScrollView', :path => '../'
+
+  target 'AScrollView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
